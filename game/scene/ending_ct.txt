@@ -1,0 +1,31 @@
+; 反恐精英结局 - 正义之路
+changeBg:village.jpg -next;
+bgm:main_theme.mp3;
+
+changeFigure:ct.png -next;
+反恐精英:欢迎正式加入反恐精英！;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:我会用这把键盘的力量保护大家;
+
+:经过严格的训练;
+:gal大佬成为了反恐精英的王牌特工;
+
+changeBg:ending_bg.jpg -next;
+
+:一年后...;
+:在一次重大任务中;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:目标已锁定，准备收网;
+
+:gal大佬成功阻止了大规模网络攻击;
+:拯救了无数人的数据安全;
+
+intro:作为反恐精英的新星|gal大佬用代码的力量|守护着网络世界的和平;
+:他的故事激励着更多年轻人;
+:投身于网络安全事业;
+
+unlockCg:ct.png -name=正义之路 -series=2;
+unlockBgm:main_theme.mp3 -name=英雄之歌;
+end;

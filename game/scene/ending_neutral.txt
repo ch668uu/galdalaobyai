@@ -1,0 +1,36 @@
+; 中立结局 - 孤独的旅人
+changeBg:village.jpg -next;
+bgm:daily.mp3;
+
+:在混乱的战斗中;
+:键盘被意外摧毁;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:一切都结束了...;
+:但好像什么都没有改变;
+
+:失去了目标的gal大佬;
+:决定离开代码村;
+
+changeFigure:78_normal.png -next;
+78:你要走了吗？;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:嗯，这里已经不需要我了;
+
+:在离开的路上;
+
+changeFigure:91_normal.png -next;
+91:保重;
+
+changeFigure:13_normal.png -next;
+13:有机会再回来看看;
+
+changeBg:ending_bg.jpg -next;
+
+intro:没有做出明确选择的gal大佬|最终独自一人离开|继续着他的旅程;
+:代码村的经历成为了回忆;
+:但新的冒险还在前方等待;
+
+unlockCg:house_day.jpg -name=孤独的旅人 -series=2;
+end;

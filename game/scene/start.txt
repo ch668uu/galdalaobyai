@@ -1,0 +1,25 @@
+; 游戏开始
+bgm:main_theme.mp3 -enter=2000;
+changeBg:village.jpg -next;
+
+:在一个名为"代码村"的神秘村落中...;
+:传说这里有一把被诅咒的"祖传键盘"...;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:这里就是代码村吗？听说这里的祖传键盘很神奇...;
+:突然，村中响起了警报声！;
+
+changeBg:shrine.jpg -next;
+playEffect:alarm.mp3;
+
+changeFigure:78_normal.png -left -next;
+78:等等！你不能碰那把键盘！;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:为什么？这键盘有什么特别的？;
+
+changeFigure:91_normal.png -right -next;
+91:那是被诅咒的键盘！碰了会有可怕的事情发生！;
+
+changeFigure:gal_dalao.png -next;
+choose:继续触碰键盘:chapter1_touch.txt|听从警告离开:chapter1_leave.txt;

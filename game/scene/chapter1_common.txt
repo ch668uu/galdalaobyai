@@ -1,0 +1,72 @@
+; 第一章 - 共同部分
+changeBg:forest.jpg -next;
+
+changeFigure:13_normal.png -next;
+13:有陌生人在森林里！;
+:从森林中走出了两个身影...;
+
+changeFigure:terrorist.png -left -next;
+changeFigure:ct.png -right -next;
+
+恐怖分子:把祖传键盘交出来！;
+
+反恐精英:我们是来保护键盘的！;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:这到底是怎么回事？;
+
+; 前往安全地点解释情况
+changeFigure:78_normal.png -left -next;
+78:这里不安全，先到我家再解释吧;
+
+changeBg:house_day.jpg -next;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+; 解释情况
+changeFigure:78_normal.png -next;
+78:让我来解释一下吧...;
+:这把键盘其实是一个强大的代码武器;
+:能够控制整个互联网的基础架构;
+
+changeFigure:91_normal.png -next;
+91:恐怖分子想要用它来控制网络世界;
+:而反恐精英则是来阻止他们的;
+
+changeFigure:13_normal.png -next;
+13:现在键盘的力量已经觉醒;
+:我们需要决定如何处置它;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:所以...我需要做出选择？;
+
+choose:帮助78保护键盘:help_78|帮助91对抗恐怖分子:help_91|与13一起寻找解决办法:help_13|加入恐怖分子:join_terrorist|加入反恐精英:join_ct;
+
+label:help_78;
+setVar:relationship_78=1;
+callScene:route_78_scene.txt;
+jumpLabel:chapter_end;
+
+label:help_91;
+setVar:relationship_91=1;
+callScene:route_91_scene.txt;
+jumpLabel:chapter_end;
+
+label:help_13;
+setVar:relationship_13=1;
+callScene:route_13_scene.txt;
+jumpLabel:chapter_end;
+
+label:join_terrorist;
+setVar:joined_terrorist=1;
+callScene:route_terrorist_scene.txt;
+jumpLabel:chapter_end;
+
+label:join_ct;
+setVar:joined_ct=1;
+callScene:route_ct_scene.txt;
+jumpLabel:chapter_end;
+
+label:chapter_end;
+; 第一章结束，进入第三章（最终章）
+changeScene:chapter3.txt;

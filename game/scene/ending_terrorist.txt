@@ -1,0 +1,34 @@
+; 恐怖分子结局 - 黑暗之路
+changeBg:village.jpg -next;
+bgm:tension.mp3;
+
+changeFigure:terrorist.png -next;
+恐怖分子:哈哈！键盘终于到手了！;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:现在我们可以控制整个网络世界了;
+
+:但是，权力的腐蚀让gal大佬逐渐改变;
+
+changeBg:ending_bg.jpg -next;
+
+:几个月后...;
+:gal大佬成为了新的恐怖分子头目;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:为什么他们要反抗？;
+:明明我们可以给他们更好的生活;
+
+changeFigure:terrorist.png -next;
+恐怖分子:因为他们不理解我们的伟大理想;
+
+:在绝对的权力面前;
+:gal大佬逐渐迷失了自我;
+:忘记了最初的善意;
+
+intro:获得力量的gal大佬|逐渐迷失在权力的欲望中|用键盘的力量控制着网络世界;
+:曾经的gal大佬消失了;
+:取而代之的是冷酷的网络独裁者;
+
+unlockCg:terrorist.png -name=黑暗之路 -series=2;
+end;

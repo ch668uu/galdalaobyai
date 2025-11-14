@@ -1,0 +1,28 @@
+; 恐怖分子路线场景
+changeFigure:terrorist.png -next;
+
+恐怖分子:你很聪明，知道选择强大的那一方;
+:有了键盘的力量，我们可以控制整个世界;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:权力...确实很诱人;
+
+:gal大佬被恐怖分子说服;
+:决定加入他们获取键盘的力量;
+
+changeBg:forest.jpg -next;
+
+恐怖分子:首先，我们需要突破反恐精英的防御;
+:你的技术会很有用;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:我可以破解他们的安全系统;
+
+:在合作过程中;
+:gal大佬逐渐被权力的欲望腐蚀;
+:开始认同恐怖分子的理念;
+
+setVar:joined_terrorist=1;
+setVar:moral=-1;
+
+; 返回主场景

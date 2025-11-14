@@ -1,0 +1,18 @@
+; 78结局
+changeBg:ending_bg.jpg -next;
+bgm:happy_ending.mp3;
+changeFigure:78_smile.png -next;
+
+78:我们成功保护了键盘！;
+gal大佬:这一切终于结束了...;
+
+:在保护键盘的过程中;
+:gal大佬和78建立了深厚的感情;
+:他们决定一起继续守护这把神秘的键盘;
+
+78:你愿意...一直留在这里吗？;
+gal大佬:当然，我会永远陪在你身边;
+
+intro:就这样，gal大佬和78|在代码村开始了新的生活|共同守护着祖传键盘的秘密...;
+unlockCg:ending_78.jpg -name=与78的约定 -series=1;
+end;

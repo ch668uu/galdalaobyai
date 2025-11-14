@@ -1,0 +1,34 @@
+; 13结局 - 智慧的发现
+changeBg:house_day.jpg -next;
+bgm:happy_ending.mp3;
+
+changeFigure:13_shy.png -next;
+13:我们成功解除了键盘的诅咒！;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:多亏了你的研究和发现;
+
+changeFigure:13_shy.png -next;
+13:不...是我们一起完成的;
+:没有你的技术，我也做不到;
+
+:在庆祝解除诅咒的晚宴上;
+
+changeFigure:13_shy.png -next;
+13:那个...谢谢你一直相信我;
+:陪我完成了这个研究;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:因为是你，所以我愿意相信;
+:而且，和你一起研究很开心;
+
+:后来...;
+changeBg:ending_bg.jpg -next;
+
+intro:13和gal大佬一起建立了研究所|继续研究古老的代码技术|发现了更多失传的知识;
+:他们的研究成果帮助了许多人;
+:让古老的智慧重新发挥作用;
+
+unlockCg:13_shy.png -name=与13的发现 -series=1;
+unlockBgm:daily.mp3 -name=日常旋律;
+end;

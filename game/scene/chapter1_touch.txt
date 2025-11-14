@@ -1,0 +1,16 @@
+; 第一章 - 触碰键盘路线
+changeFigure:gal_dalao.png -next;
+gal大佬:我倒要看看这键盘有什么特别的...;
+:当gal大佬触碰到键盘的瞬间，键盘发出了耀眼的光芒！;
+
+playEffect:magic.mp3;
+setAnimation:shake -target=bg-main;
+
+changeFigure:78_normal.png -left -next;
+78:完了！诅咒被触发了！;
+
+changeFigure:91_normal.png -right -next;
+91:现在恐怖分子会来袭击村子的！;
+
+setVar:cursed=true;
+changeScene:chapter1_common.txt;

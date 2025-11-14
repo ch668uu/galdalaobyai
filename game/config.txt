@@ -1,0 +1,9 @@
+Game_name:gal大佬的冒险;
+Game_key:eb1fd9c1fd2075;
+Title_img:village.jpg;
+Title_bgm:main_theme.mp3;
+Textbox_theme:imss;
+Enable_Appreciation:true;
+Game_Logo:house_night.jpg|shrine.jpg;
+Description:gal大佬的神秘冒险;
+Package_name:com.gal.nbnb;

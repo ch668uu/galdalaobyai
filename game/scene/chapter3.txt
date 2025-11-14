@@ -1,0 +1,22 @@
+; 第三章 - 最终决战
+changeBg:forest.jpg -next;
+bgm:tension.mp3;
+
+:三天后...;
+:恐怖分子和反恐精英在森林中对峙;
+
+changeFigure:terrorist.png -left -next;
+恐怖分子:把键盘交出来！;
+
+changeFigure:ct.png -right -next;
+反恐精英:我们不能让键盘落入坏人手中！;
+
+:激烈的战斗开始了...;
+
+; 根据选择进入不同结局 - 使用 -when 参数
+callScene:ending_78.txt -when=relationship_78>0;
+callScene:ending_91.txt -when=relationship_91>0;
+callScene:ending_13.txt -when=relationship_13>0;
+callScene:ending_terrorist.txt -when=joined_terrorist>0;
+callScene:ending_ct.txt -when=joined_ct>0;
+callScene:ending_neutral.txt;

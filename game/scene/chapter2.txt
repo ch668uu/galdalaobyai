@@ -1,0 +1,37 @@
+; 第二章 - 真相与选择
+changeBg:house_day.jpg -next;
+
+78:让我来解释一下吧...;
+:这把键盘其实是一个强大的代码武器;
+:恐怖分子想要用它来控制网络世界;
+:而反恐精英则是来阻止他们的;
+
+91:现在因为你触发了诅咒，键盘的力量觉醒了;
+13:我们需要你的帮助来保护村子！;
+
+choose:帮助78保护键盘:route_78|帮助91对抗恐怖分子:route_91|与13一起寻找解决办法:route_13|独自面对恐怖分子:route_terrorist|加入反恐精英:route_ct;
+
+label:route_78;
+setVar:relationship_78=1;
+callScene:route_78_scene.txt;
+jumpLabel:chapter3;
+
+label:route_91;
+setVar:relationship_91=1;
+callScene:route_91_scene.txt;
+jumpLabel:chapter3;
+
+label:route_13;
+setVar:relationship_13=1;
+callScene:route_13_scene.txt;
+jumpLabel:chapter3;
+
+label:route_terrorist;
+setVar:joined_terrorist=1;
+callScene:route_terrorist_scene.txt;
+jumpLabel:chapter3;
+
+label:route_ct;
+setVar:joined_ct=1;
+callScene:route_ct_scene.txt;
+jumpLabel:chapter3;

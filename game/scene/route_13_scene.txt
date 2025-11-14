@@ -1,0 +1,37 @@
+; 13路线场景
+changeFigure:13_normal.png -next;
+
+13:我觉得可能有办法解除键盘的诅咒;
+:但需要研究古老的文献;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:我对代码很有研究，也许能帮忙;
+
+:两人在村子的图书馆中研究;
+changeBg:house_night.jpg -next;
+
+changeFigure:13_shy.png -next;
+13:这里有一段古老的代码...;
+:看起来像是某种加密算法;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:让我看看...;
+:这个算法我可以破解;
+
+:经过一夜的研究;
+:两人发现了键盘的秘密;
+
+changeFigure:13_smile.png -next;
+13:成功了！我们找到了解除诅咒的方法！;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:多亏了你的发现;
+
+:在研究过程中;
+:gal大佬被13的智慧和细心打动;
+:而13也欣赏gal大佬的技术能力;
+
+setVar:trust_13=1;
+setVar:relationship_13=relationship_13+1;
+
+; 返回主场景

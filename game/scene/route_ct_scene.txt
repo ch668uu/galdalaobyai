@@ -1,0 +1,28 @@
+; 反恐精英路线场景
+changeFigure:ct.png -next;
+
+反恐精英:很高兴你选择了正义的一方;
+:我们需要保护键盘不被滥用;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:我相信这是正确的选择;
+
+:gal大佬加入反恐精英;
+:帮助他们加强安全措施;
+
+changeBg:forest.jpg -next;
+
+反恐精英:你的技术背景对我们很有价值;
+:我们可以一起保护网络世界的安全;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:我会尽我所能;
+
+:在训练和准备过程中;
+:gal大佬学到了很多关于网络安全的知识;
+:并坚定了保护他人的决心;
+
+setVar:joined_ct=1;
+setVar:moral=1;
+
+; 返回主场景

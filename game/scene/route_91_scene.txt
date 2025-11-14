@@ -1,0 +1,36 @@
+; 91路线场景
+changeFigure:91_normal.png -next;
+
+91:我们需要制定对抗恐怖分子的计划;
+:他们很可能会在夜晚发动袭击;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:你有什么策略？;
+
+changeFigure:91_normal.png -next;
+91:我在村子周围设置了防御系统;
+:但需要有人操作;
+
+:gal大佬展现出了出色的技术能力;
+:帮助91改进了防御系统;
+
+changeBg:forest.jpg -next;
+
+91:你的技术很不错...;
+:比我预期的要好;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:毕竟我是gal大佬嘛;
+
+changeFigure:91_normal.png -next;
+91:哼，别太得意了;
+:不过...确实帮了大忙;
+
+:在准备防御的过程中;
+:gal大佬被91的专业和果断所吸引;
+:而91也开始认可gal大佬的能力;
+
+setVar:trust_91=1;
+setVar:relationship_91=relationship_91+1;
+
+; 返回主场景

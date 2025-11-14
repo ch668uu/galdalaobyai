@@ -1,0 +1,14 @@
+# Common ignores
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+dist/
+build/
+.env
+.vscode/
+*.tmp
+
+# OS
+ehthumbs.db
+desktop.ini

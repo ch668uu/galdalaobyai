@@ -1,0 +1,12 @@
+; 第一章 - 离开键盘路线
+changeFigure:gal_dalao.png -next;
+gal大佬:好吧，我听你们的...;
+
+changeFigure:78_normal.png -left -next;
+78:谢谢你没有触发诅咒...;
+
+changeFigure:91_normal.png -right -next;
+91:但是恐怖分子可能还是会来...;
+
+setVar:cursed=false;
+changeScene:chapter1_common.txt;

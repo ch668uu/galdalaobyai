@@ -1,0 +1,32 @@
+; 78结局 - 守护者的约定
+changeBg:shrine.jpg -next;
+bgm:happy_ending.mp3;
+
+changeFigure:78_smile.png -next;
+78:我们成功保护了键盘！;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:这一切终于结束了...;
+:但我好像找到了更重要的东西;
+
+:在保护键盘的过程中;
+:gal大佬和78建立了深厚的感情;
+
+changeFigure:78_smile.png -next;
+78:你愿意...一直留在这里吗？;
+:和我一起守护这把键盘;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:当然，我会永远陪在你身边;
+:这不仅是为了键盘，更是为了你;
+
+:一年后...;
+changeBg:ending_bg.jpg -next;
+
+intro:gal大佬和78结为伴侣|共同守护着祖传键盘|用它的力量帮助需要帮助的人;
+:他们成为了代码村新的守护者;
+:用键盘的力量修复网络bug，帮助他人;
+
+unlockCg:78_smile.png -name=与78的约定 -series=1;
+unlockBgm:happy_ending.mp3 -name=幸福的旋律;
+end;

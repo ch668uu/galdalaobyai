@@ -1,0 +1,34 @@
+; 91结局 - 最强搭档
+changeBg:forest.jpg -next;
+bgm:happy_ending.mp3;
+
+changeFigure:91_normal.png -next;
+91:我们成功击退了恐怖分子！;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:你的战斗技巧真厉害...;
+:但我也不差吧？;
+
+changeFigure:91_normal.png -next;
+91:哼，还算不错;
+:至少没有拖后腿;
+
+:在清理战场的休息时刻;
+
+changeFigure:91_normal.png -next;
+91:说实话...你的技术确实帮了大忙;
+:要不要正式加入我的护卫队？;
+
+changeFigure:gal_dalao.png -next;
+gal大佬:能和你在一切的话，我很乐意;
+
+:几个月后...;
+changeBg:ending_bg.jpg -next;
+
+intro:gal大佬和91组成了最强搭档|成立了网络安全公司|专门对抗网络犯罪;
+:他们的组合让恐怖分子闻风丧胆;
+:成为了网络世界的守护神;
+
+unlockCg:91_normal.png -name=与91的搭档 -series=1;
+unlockBgm:main_theme.mp3 -name=主旋律;
+end;
